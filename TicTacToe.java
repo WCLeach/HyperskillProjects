@@ -1,7 +1,7 @@
 package tictactoe;
 import java.util.Scanner;
 
-public class Main {
+public class TicTacToe {
     static char[] playerMove(char[] ticTacGrid, boolean playerTurn) {
         Scanner scanner = new Scanner(System.in);
         int currentPlace = 0;
